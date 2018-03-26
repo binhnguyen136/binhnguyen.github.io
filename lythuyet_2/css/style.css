@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+li { list-style-type: none; }
+#container {
+  width: 260px; 
+  margin: 0 auto;
+  padding: 5px 7px;
+  background-color: #e6f3fb;
+}
+.post-title {  
+  font-size: 12px;
+  font-weight: bold;
+}
+.title-3 { margin-top: 18px; }
+.content {
+  position: relative;
+  overflow: auto;    
+  padding: 7px;
+  background-color: #fff; 
+}
+.content.border {
+  border-top: 2px solid #ffa500;
+}
+.content.horo { padding-top: 15px }
+.info a,
+.content a { 
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+}
+.para-1 {
+  max-width: 40%;
+  margin-left: 5px;
+}
+.para-2 { width: 65%; }
+.para-3 {
+  float: left;
+  width: 40%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.para-title { font-weight: bold; }
+.para-time {
+  color: #808080;
+  margin-bottom: 8px;
+}
+.image-blogroll {
+  width: 55%; border: 1px solid #ccc;
+  padding: 1px;
+}
+.image-horo { max-width: 35%; }
+.image-news {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  max-width: 41%;
+  margin: -7px;
+}
+.info 
+img {
+  position: absolute;
+  right: 0;
+  top: -2px;
+  width: 19.5%;
+}
+.comment
+li {
+  padding: 7px;
+  margin-bottom: 1px;    
+  background-color: #faf0bf;
+  color: #0a6395;
+}
+.info {
+  position: relative;
+  padding: 5px 12px;
+  background-color: #f4f4ec;
+}
+.related {
+  margin-top: 6px;
+  padding-top: 3px;
+  border-top: 1px solid #ccc;
+}
+.competition {
+  border: 1px solid #dadada;
+}
+.right { float: right; }
+.blue { color: #2c97b2; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
