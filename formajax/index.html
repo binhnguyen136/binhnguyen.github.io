@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="us-en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <script src="js/calendar.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <form action="" method="POST" class="form-input">
+      <div class="input">
+        <label>Username</label>
+        <input type="text" class="input-text" id="username" name="username" >
+        <span class="error" id="user_error"></span>
+      </div>
+      <div class="input">
+        <label>Password</label>
+        <input type="password" class="input-text" id="password" name="password" >
+        <span class="error" id="password_error"></span>
+      </div>
+      <div class="input">
+        <label>Email</label>
+        <input type="text" class="input-text" id="email" name="email">
+        <span class="error" id="email_error"></span>
+      </div>
+      <div class="input">
+        <label>Birthday</label>
+        <div id="container">
+          <div id="date-input">
+            <input type="text" id="birthday" class="input-text" name="birthday">
+            <img src="img/calendar.png" alt="" onclick="toggleCalendar();">
+            <span class="error" id="birthday_error"></span>
+          </div>
+          <script>
+            render();
+          </script>
+        <div>
+      </div>
+      <div class="btn-set">
+        <button type="button" class="btn" onclick="refresh()">Refresh</button>
+        <button type="button" class="btn" onclick="ajaxSubmit()">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

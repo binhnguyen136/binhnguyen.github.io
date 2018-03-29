@@ -1,0 +1,21 @@
+.input {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.input
+input {
+  padding: 3px;
+}
+.input
+label {
+  width: 100px;
+}
+.form-input {
+  width: 500px; 
+  margin: 0 auto;
+}
+.error {
+  margin-left: 5px;
+  color: red;
+}
